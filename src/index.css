@@ -1,0 +1,58 @@
+html,body{
+  height:100%;
+  overflow-y: hidden;
+}
+#root{
+  height:100%;
+}
+.app{
+  width: 100%;
+  height: 100%;
+  display: inline-grid;
+  grid-template-columns: auto max-content;
+}
+.my-designer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.my-container{
+    display: inline-flex;
+    width: 100%;
+    flex: 1;
+}
+
+.react-bpmn-diagram-container {
+    flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    height: 100%;
+    position: relative;
+    background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImEiIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTTAgMTBoNDBNMTAgMHY0ME0wIDIwaDQwTTIwIDB2NDBNMCAzMGg0ME0zMCAwdjQwIiBmaWxsPSJub25lIiBzdHJva2U9IiNlMGUwZTAiIG9wYWNpdHk9Ii4yIi8+PHBhdGggZD0iTTQwIDBIMHY0MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZTBlMGUwIi8+PC9wYXR0ZXJuPjwvZGVmcz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2EpIi8+PC9zdmc+) repeat!important;
+}
+.react-bpmn-diagram-container{
+  height: 100%;
+}
+/* ↓ 隐藏图标 */
+.bjs-powered-by{
+  display: none;
+}
+/* ↓ lint开关 */
+.bjsl-button {
+  bottom: 80px !important;
+}
+.djs-palette {
+  top:200px !important; 
+}
+.panel-container {
+  width: 400px;
+  height: 100%;
+}
+
+.designer-header{
+  width: 100%;
+  min-height: 36px;
+}
